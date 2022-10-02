@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html lang="ru">
     <meta charset="utf-8">
+<head>
     <title>LAB #1</title>
-
-<head><h2><strong>Лабораторна робота №1</strong></h2></head>
-<em>КІУКІ-20-3 Михайлов Юрій</em>
+    <h2><strong>Лабораторна робота №1</strong></h2>
+    <em>КІУКІ-20-3 Михайлов Юрій</em>
+</head> 
+<style>
+    table, td{
+      border: 1px solid #3c8f4b;
+      border-collapse: collapse;
+      background-color: #59d06f;
+    }
+</style>  
 <body><br>
     <h3>Task 1</h3>
         <p>Общее количество перестановок из <em>n</em> элементов равно <b>произведению всех целых чисел</b> от <em>1</em> до <em>n</em>: P<sub>n</sub> = 1⋅2⋅3⋅...⋅(n-2)⋅(n-1)⋅n.</p>
@@ -26,18 +34,43 @@
 </details>
 
     <h3>Task 3</h3>
-<table width="200" border="1">
-    <caption>Периодическая таблица Менделеева</caption> 
-        <tr align ="left" style="background-color:rgb(8, 191, 8);">
-            <th>Na</th><th>Mg</th>
-        </tr>
-        <tr align ="left" style="background-color:rgb(8, 191, 8);">
-            <th>K</th><th>Ca</th>
-        </tr>
-        <tr align ="right" style="background-color:rgb(8, 191, 8);">
-            <th>Cu</th><th>Zn</th>
-        </tr>      
-</table>
+
+<table>
+    <tr>
+        <td rowspan="2" style="font-size: 30px">Na</td>
+        <th>11</th>
+            <td rowspan="2" style="font-size: 30px">Mg</td>
+            <th>12</th>           
+    </tr>
+    <tr>
+        <td>22.99</td>
+        <td>24.305</td>
+    </tr> 
+
+    <tr>
+        <td rowspan="2" style="font-size: 30px">K</td>
+        <th>19</th>   
+            <td rowspan="2" style="font-size: 30px">Ca</td>    
+            <th>20</th>        
+    </tr>
+    <tr>
+        <td>39.098</td>
+        <td>40.08</td>
+    </tr>
+
+    <tr>
+        <th>29</th> 
+        <td rowspan="2" style="font-size: 30px">Cu</td>        
+            <th>30</th> 
+            <td rowspan="2" style="font-size: 30px">Zn</td>                     
+    </tr>
+    <tr>
+        <td>63.546</td>
+        <td>65.39</td>
+    </tr>
+
+  </table>
+
     <h3>Task 4</h3>
     <form method="get">
     <div style ="line-height: 1.5;"><dl>
@@ -50,9 +83,9 @@
             <dd><input type="text" placeholder="Nvidia 940MX "></dd>
             <dd><sub><input type="checkbox" name="login">Интегрирован</sub></dd>
         <dt><b>Объём ОЗУ</b></dt>
-            <dd><input  type="text" name="num"></dd>
-            <input type="submit" value="Отправить данные" />
+            <dd><input  type="text" name="num"></dd>          
     </dl></div>
+        <input type="submit" value="Отправить данные" />
     </form>
     <h3>Task 5</h3>
     <img src="Untitled.png" alt="picture supposed to be here..."  usemap="#mapid">
@@ -60,6 +93,22 @@
     <area href="https://www.nasa.gov" alt="Click 1" target="_blank" shape="rect" coords="0,0,180,230">
     <area href="https://nure.ua/en/" alt="Click 2" target="_blank" shape="rect" coords="190,0,1000,115"> 
     <area href="https://dec.nure.ua" alt="Click 3" target="_blank" shape="rect" coords="190,115,1000,230">
-    </map></br>
-</body>
+    </map>
+</br></body>
 </html>
+
+
+
+
+<!--<table width="200" border="1">
+    <caption>Периодическая таблица Менделеева</caption> 
+        <tr align ="left" style="background-color:rgb(8, 191, 8);">
+            <th>Na</th><th>Mg</th>
+        </tr>
+        <tr align ="left" style="background-color:rgb(8, 191, 8);">
+            <th>K</th><th>Ca</th>
+        </tr>
+        <tr align ="right" style="background-color:rgb(8, 191, 8);">
+            <th>Cu</th><th>Zn</th>
+        </tr>      
+</table>-->
